@@ -1,0 +1,9 @@
+#
+# SPDX-FileCopyrightText: The LineageOS Project
+# SPDX-License-Identifier: Apache-2.0
+#
+
+require firmware.SM-A2560=A2560ZHS7CYG4
+require firmware.SM-A256B=A256BXXS8CYG4
+require firmware.SM-A256E=A256EXXS8CYG3
+require firmware.SM-A256N=A256NKSS6DYI5
