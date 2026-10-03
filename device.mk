@@ -12,5 +12,8 @@ $(call inherit-product, device/samsung/s5e8825-common/products/phone/product.mk)
 # Inherit the device-specific vendor configuration
 $(call inherit-product, vendor/samsung/a25x/a25x-vendor.mk)
 
+# Shipping level
+PRODUCT_SHIPPING_API_LEVEL := 34
+
 # Soong - Namespaces
 PRODUCT_SOONG_NAMESPACES += device/samsung/a25x
