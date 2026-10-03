@@ -15,7 +15,8 @@ $(call inherit-product, vendor/samsung/a25x/a25x-vendor.mk)
 # Overlays
 PRODUCT_PACKAGES += \
     FrameworkResOverlayDevice \
-    SettingsProviderOverlayDevice
+    SettingsProviderOverlayDevice \
+    WiFiOverlayDevice
 
 # Shipping level
 PRODUCT_SHIPPING_API_LEVEL := 34
