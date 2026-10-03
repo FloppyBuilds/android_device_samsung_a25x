@@ -17,10 +17,14 @@ PRODUCT_PACKAGES += \
     mixer_paths.xml \
     mixer_paths_rt5691.xml
 
+# Display - Configuration
+PRODUCT_PACKAGES += displayconfig.xml
+
 # Overlays
 PRODUCT_PACKAGES += \
     FrameworkResOverlayDevice \
     SettingsProviderOverlayDevice \
+    SystemUIOverlayDevice \
     WiFiOverlayDevice
 
 # Properties
