@@ -12,6 +12,9 @@ vendor/firmware/abov/a96t396_a25x_main.bin
 vendor/firmware/calliope_sram.bin
 vendor/firmware/vts.bin
 
+# Camera - Dependencies
+vendor/lib64/libc++_shared.so
+
 # Camera - Firmware
 vendor/firmware/setfile_4ha.bin
 vendor/firmware/setfile_gc02m1.bin
