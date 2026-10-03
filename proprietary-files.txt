@@ -4,3 +4,48 @@
 #
 
 # Proprietary files - from A256BXXSEEZH9, unless pinned
+
+# Audio - Firmware
+vendor/firmware/APDV_AUDIO_SLSI.bin
+vendor/firmware/AP_AUDIO_SLSI.bin
+vendor/firmware/abov/a96t396_a25x_main.bin
+vendor/firmware/calliope_sram.bin
+vendor/firmware/vts.bin
+
+# Camera - Firmware
+vendor/firmware/setfile_4ha.bin
+vendor/firmware/setfile_gc02m1.bin
+vendor/firmware/setfile_hi1339.bin
+vendor/firmware/setfile_imx258.bin
+vendor/firmware/setfile_jn1.bin
+vendor/firmware/tfa9878.bin
+vendor/firmware/tfa98xx.cnt
+
+# Camera - Firmware - Configuration
+vendor/firmware/lmecpu_4HA.json
+vendor/firmware/lmecpu_GC02M1.json
+vendor/firmware/lmecpu_HI1339.json
+vendor/firmware/lmecpu_IMX258.json
+vendor/firmware/lmecpu_JN1.json
+vendor/firmware/swcnr_SAK2L4.json
+
+# Display - Touchscreen - Firmware
+vendor/firmware/ft3519_a25x.bin
+vendor/firmware/ft3519_a25x.bin:vendor_ramdisk/vendor/firmware/ft3519_a25x.bin
+vendor/firmware/ft3519_a25x.bin:recovery/root/vendor/firmware/ft3519_a25x.bin
+vendor/firmware/gt9895_a25x.bin
+vendor/firmware/gt9895_a25x.bin:vendor_ramdisk/vendor/firmware/gt9895_a25x.bin
+vendor/firmware/gt9895_a25x.bin:recovery/root/vendor/firmware/gt9895_a25x.bin
+
+# Firmware
+vendor/firmware/NPU.bin
+vendor/firmware/mfc_fw.bin
+vendor/firmware/os.checked.bin
+
+# NFC - Firmware
+vendor/firmware/nfc/st21nfc_fw.bin
+
+# Wi-Fi - Firmware
+vendor/firmware/wifi/mx140_t_common.hcf
+vendor/firmware/wifi/mx140_t_wlan.hcf
+vendor/firmware/wifi/mx140_t_wlan_t.hcf
