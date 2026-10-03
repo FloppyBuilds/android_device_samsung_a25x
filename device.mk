@@ -9,5 +9,8 @@ $(call inherit-product, device/samsung/s5e8825-common/common.mk)
 # Inherit the phone-specific configuration
 $(call inherit-product, device/samsung/s5e8825-common/products/phone/product.mk)
 
+# Inherit the device-specific vendor configuration
+$(call inherit-product, vendor/samsung/a25x/a25x-vendor.mk)
+
 # Soong - Namespaces
 PRODUCT_SOONG_NAMESPACES += device/samsung/a25x
