@@ -50,3 +50,6 @@ PRODUCT_SHIPPING_API_LEVEL := 34
 
 # Soong - Namespaces
 PRODUCT_SOONG_NAMESPACES += device/samsung/a25x
+
+# Unify
+$(call inherit-product, device/samsung/s5e8825-common/products/unify/product.mk)
