@@ -17,6 +17,9 @@ PRODUCT_PACKAGES += \
     mixer_paths.xml \
     mixer_paths_rt5691.xml
 
+# Audio - Effects - SoundBooster
+$(call soong_config_set,samsungAudioVars,soundbooster_dsp_library,//vendor/samsung/a25x:lib_SoundBooster_ver1130)
+
 # Display - AOD
 $(call inherit-product, device/samsung/s5e8825-common/products/aod/product.mk)
 
