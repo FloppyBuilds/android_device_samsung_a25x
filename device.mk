@@ -23,6 +23,9 @@ $(call inherit-product, device/samsung/s5e8825-common/products/aod/product.mk)
 # Display - Configuration
 PRODUCT_PACKAGES += displayconfig.xml
 
+# Init
+PRODUCT_PACKAGES += init.a25x.rc
+
 # NFC
 $(call inherit-product, device/samsung/s5e8825-common/products/st_nfc/product.mk)
 

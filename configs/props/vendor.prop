@@ -5,3 +5,7 @@
 
 # Bluetooth
 bluetooth.device.default_name=Galaxy A25 5G
+
+# Fingerprint
+ro.vendor.fingerprint.type=side
+ro.vendor.fingerprint.sensor_location=1080|820|350|local:4633128672291735932
