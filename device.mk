@@ -12,6 +12,11 @@ $(call inherit-product, device/samsung/s5e8825-common/products/phone/product.mk)
 # Inherit the device-specific vendor configuration
 $(call inherit-product, vendor/samsung/a25x/a25x-vendor.mk)
 
+# Audio - Configuration
+PRODUCT_PACKAGES += \
+    mixer_paths.xml \
+    mixer_paths_rt5691.xml
+
 # Overlays
 PRODUCT_PACKAGES += \
     FrameworkResOverlayDevice \

@@ -1,0 +1,16 @@
+//
+// SPDX-FileCopyrightText: The LineageOS Project
+// SPDX-License-Identifier: Apache-2.0
+//
+
+prebuilt_etc {
+    name: "mixer_paths.xml",
+    src: "mixer_paths.xml",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "mixer_paths_rt5691.xml",
+    src: "mixer_paths_rt5691.xml",
+    vendor: true,
+}
